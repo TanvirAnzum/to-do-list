@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+    <link rel="shortcut icon" href="./1560.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__container">
+        <div class="main__container__header">
+          <div class="date">
+            <h1 class="top">Thursday, 4</h1>
+            <p class="bottom">December</p?>
+          </div>
+          <div class="total">
+            <p class="total_task"></p>
+          </div>
+          <button class="btn"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="main__container__content">
+          <ul class="list">
+            <!-- <li class="list-item"> <input class="input" type="checkbox" title="Marked as done!"><p class="task">new task</p><i class="fa-solid fa-trash-can" title="delete task!"></i></li>
+            <li class="list-item"> <input class="input" type="checkbox" title="Marked as done!"><p class="task">second task</p><i class="fa-solid fa-trash-can" title="delete task!"></i></li>
+            <li class="list-item"> <input class="input" type="checkbox" title="Marked as done!"><p class="task">Third task</p><i class="fa-solid fa-trash-can" title="delete task!"></i></li> -->
+          </ul>
+        </div>
+        <div class="create_content">
+           
+            <label for="new content">New Task: </label>
+            <input type="text" name="text" id="new_content" placeholder="Type your task here"></input>
+            <div>
+                <button class="submit-btn">Add Task</button>
+                <button class="close-btn">Close</button>
+            </div>
+            
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
